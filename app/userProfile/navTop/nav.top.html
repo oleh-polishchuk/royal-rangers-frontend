@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inner Application top-nav</title>
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="nav.top.css">
+</head>
+
+<body class="fixed-sidebar fixed-nav fixed-nav-basic">
+<!--page wrapper-->
+<div id="wrapper">
+    <!--side bar-->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+    </nav>
+    <!--main content-->
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!--top navigation-->
+        <div class="row border-bottom">
+            <nav class="up-top-navbar navbar navbar-fixed-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i>
+                    </a>
+                    <a class="up-top-navbar__logo" href="javascript:void(0);">
+                        <img class="up-img hidden-xs" src="img/rr-logo.svg" alt="Логотип Royal-Rangers">
+                        <span class="up-caption m-r-sm text-muted welcome-message">Royal-Rangers</span>
+                    </a>
+                </div>
+                <div class="up-top-navbar__search">
+                    <form role="search" class="navbar-form-custom" action="javascript:void(0);">
+                        <div class="form-group">
+                            <input type="text" placeholder="Натисніть для пошуку" class="form-control up-search-form"
+                                   name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="up-top-navbar__right-section nav navbar-top-links navbar-right">
+                    <li class="up-top-navbar__avatar">
+                        <img class="up-img up-img_style_circle" src="img/avatar.jpg" alt="Аватарка користувача">
+                    </li>
+                    <li class="up-top-navbar__logout">
+                        <a class="up-caption" href="javascript:void(0);">
+                            <i class="fa fa-sign-out"></i>Вийти
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="jquery-2.1.1.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery.metisMenu.js"></script>
+<script src="jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="inspinia.js"></script>
+<script src="pace.min.js"></script>
+
+
+</body>
+</html>
