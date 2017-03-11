@@ -1,7 +1,7 @@
 # Files
 *.iml
 
-# Foulders
+# Folders
 .idea/
 node_modules/
 bower_components/
