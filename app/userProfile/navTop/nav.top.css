@@ -1,8 +1,10 @@
-/*TODO: solve issue with important styles
-  TODO: merge main styles with root bootstrap
-  TODO: write documentation*/
+/*Styles for Royal-Rangers user-page - "Top navigation bar"*/
+/*Author: Vasily Dikun*/
+/*Aliases: "up" - user page; "uptnb" - user page top navbar;*/
+/*Top navigation bar*/
 .up-top-navbar {
-  font-family: 'Yanone Kaffeesatz', sans-serif; }
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: none; }
   .up-top-navbar__logo {
     float: left;
     height: 60px;
@@ -12,29 +14,58 @@
     float: none;
     margin: 0 auto;
     width: 200px; }
-  .up-top-navbar__right-section {
+  .up-top-navbar__user-section {
     float: right;
     margin: 0;
     height: 60px; }
   .up-top-navbar__avatar {
+    float: left;
     margin: 4px 10px 4px 0;
     height: 52px; }
   .up-top-navbar__logout {
-    margin-right: 15px !important;
+    margin-top: 15px;
+    margin-right: 15px;
     float: right;
-    height: 60px;
-    line-height: 60px; }
+    height: 60px; }
 
+/*Styles to simple text captions*/
 .up-caption {
-  padding: 0 !important;
-  font-size: 24px !important;
-  color: #000000 !important;
-  vertical-align: middle; }
-
-.up-search-form {
+  font-size: 24px;
   color: #000;
-  font-size: 24px !important; }
+  vertical-align: middle; }
+  .up-caption_bold {
+    font-weight: 800; }
+  .up-caption .fa {
+    margin-right: 6px; }
+  .up-caption:focus {
+    color: #000; }
 
+/*Styles to search input form*/
+.up-search-form {
+  background: none repeat scroll 0 0 transparent;
+  padding-top: 4px;
+  border: medium none;
+  width: 200px;
+  height: 60px;
+  margin: 0;
+  outline: none;
+  z-index: 2000;
+  color: #000;
+  font-size: 24px; }
+  .up-search-form::-webkit-input-placeholder {
+    text-transform: none;
+    font-size: 24px; }
+  .up-search-form:-moz-placeholder {
+    text-transform: none;
+    font-size: 24px; }
+  .up-search-form::-moz-placeholder {
+    text-transform: none;
+    font-size: 24px; }
+  .up-search-form:-ms-input-placeholder {
+    text-transform: none;
+    font-size: 24px; }
+
+/*Styles to images*/
 .up-img {
   height: 100%;
   width: auto; }

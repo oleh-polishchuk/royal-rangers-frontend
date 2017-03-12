@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Inner Application top-nav</title>
-    <link href="font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="nav.top.css">
+    <link href="components/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../static/vendor/css/app.css" rel="stylesheet" >
+    <link href="components/css/inspinia.css" rel="stylesheet">
+    <link href="nav.top.css" rel="stylesheet" >
 </head>
 
 <body class="fixed-sidebar fixed-nav fixed-nav-basic">
@@ -35,35 +35,35 @@
                 <div class="up-top-navbar__search">
                     <form role="search" class="navbar-form-custom" action="javascript:void(0);">
                         <div class="form-group">
-                            <input type="text" placeholder="Натисніть для пошуку" class="form-control up-search-form"
+                            <input type="text" placeholder="Натисніть для пошуку" class="up-search-form"
                                    name="top-search" id="top-search">
                         </div>
                     </form>
                 </div>
-                <ul class="up-top-navbar__right-section nav navbar-top-links navbar-right">
-                    <li class="up-top-navbar__avatar">
+                <div class="up-top-navbar__user-section">
+                    <div class="up-top-navbar__avatar">
                         <img class="up-img up-img_style_circle" src="img/avatar.jpg" alt="Аватарка користувача">
-                    </li>
-                    <li class="up-top-navbar__logout">
-                        <a class="up-caption" href="javascript:void(0);">
+                    </div>
+                    <div class="up-top-navbar__logout">
+                        <a class="up-caption up-caption_bold" href="javascript:void(0);">
                             <i class="fa fa-sign-out"></i>Вийти
                         </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>
 </div>
 
 <!-- Mainly scripts -->
-<script src="jquery-2.1.1.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="jquery.metisMenu.js"></script>
-<script src="jquery.slimscroll.min.js"></script>
+<script src="components/js/jquery-2.1.1.js"></script>
+<script src="components/js/bootstrap.min.js"></script>
+<script src="components/js/jquery.metisMenu.js"></script>
+<script src="components/js/jquery.slimscroll.min.js"></script>
 
 <!-- Custom and plugin javascript -->
-<script src="inspinia.js"></script>
-<script src="pace.min.js"></script>
+<script src="components/js/inspinia.js"></script>
+<script src="components/js/pace.min.js"></script>
 
 
 </body>
