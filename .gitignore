@@ -11,4 +11,3 @@ app/static/vendor/*
 .sass-cache/
 template-sources/
 app/*.css
-app/**/*.css

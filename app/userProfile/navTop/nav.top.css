@@ -1,0 +1,45 @@
+/*TODO: solve issue with important styles
+  TODO: merge main styles with root bootstrap
+  TODO: write documentation*/
+.up-top-navbar {
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+  .up-top-navbar__logo {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 10px; }
+  .up-top-navbar__search {
+    float: none;
+    margin: 0 auto;
+    width: 200px; }
+  .up-top-navbar__right-section {
+    float: right;
+    margin: 0;
+    height: 60px; }
+  .up-top-navbar__avatar {
+    margin: 4px 10px 4px 0;
+    height: 52px; }
+  .up-top-navbar__logout {
+    margin-right: 15px !important;
+    float: right;
+    height: 60px;
+    line-height: 60px; }
+
+.up-caption {
+  padding: 0 !important;
+  font-size: 24px !important;
+  color: #000000 !important;
+  vertical-align: middle; }
+
+.up-search-form {
+  color: #000;
+  font-size: 24px !important; }
+
+.up-img {
+  height: 100%;
+  width: auto; }
+  .up-img_style_circle {
+    border-radius: 50%;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=nav.top.css.map */
